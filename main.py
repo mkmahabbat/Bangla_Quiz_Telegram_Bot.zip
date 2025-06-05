@@ -6,7 +6,7 @@ import random
 
 TOKEN = "7685067743:AAGJ77HmwGProGGHmw6X1-l3RZK8Lw_Aagw"
 
-SUBJECTS = ["ভূগোল", "গণিত", "ইতিহাস", "ভৌতবিজ্ঞান", "জীববিজ্ঞান"]
+SUBJECTS = ["geography", "math", "history", "physical_science", "life_science"]
 QUIZ_DATA = {subject: json.load(open(f"questions/{subject}.json", "r", encoding="utf-8")) for subject in SUBJECTS}
 
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
