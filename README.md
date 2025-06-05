@@ -1,1 +1,3 @@
-# Bangla_Quiz_Telegram_Bot.zip
+# বাংলা কুইজ বট
+
+এই বটটি Telegram-এ চালানো যাবে এবং Render-এ ডিপ্লয় করার জন্য প্রস্তুত।
